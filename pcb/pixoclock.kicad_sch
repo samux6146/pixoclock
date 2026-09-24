@@ -2274,7 +2274,7 @@
 	)
 	(rectangle
 		(start 358.14 25.4)
-		(end 388.62 81.28)
+		(end 388.62 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -7108,6 +7108,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 82.55) (xy 379.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f61cc5-9a41-4119-8f93-3d75a2a16218")
+	)
+	(wire
+		(pts
 			(xy 233.68 238.76) (xy 271.78 238.76)
 		)
 		(stroke
@@ -9175,6 +9185,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e300ea7-4660-4bcf-b9f5-d71915ca2f37")
+	)
+	(label "NRST"
+		(at 373.38 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a29bf3bc-975f-4844-81c8-87581ed4adfb")
 	)
 	(label "CH11"
 		(at 53.34 223.52 0)
@@ -12156,6 +12176,84 @@
 			(project "pixoclock"
 				(path "/1fafa2a5-8a27-4e6e-90cf-246fa577a0f7"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 373.38 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cfaa6c0-4f00-46fa-9e52-b732e6470604")
+		(property "Reference" "TP7"
+			(at 373.253 80.899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 373.253 78.359 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 373.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 373.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7aabb3a-ace5-4d8f-a875-440ae8efbe44")
+		)
+		(instances
+			(project "pixoclock"
+				(path "/1fafa2a5-8a27-4e6e-90cf-246fa577a0f7"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
