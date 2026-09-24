@@ -1,3 +1,5 @@
 production/
 pixoclock-backups/
 *.lck
+gerber_to_order/
+.DS_Store
